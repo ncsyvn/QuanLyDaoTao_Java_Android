@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff0033cc"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="Thông tin Môn Học" />
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Mã môn học" />
+        <TextView
+            android:id="@+id/txtMaMonHoc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </TextView>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Tên môn học" />
+        <EditText
+            android:id="@+id/txtTenMonHoc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Bộ Môn" />
+        <EditText
+            android:id="@+id/txtTenBoMon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Số tín chỉ" />
+        <EditText
+            android:id="@+id/txtSoTinChi"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Số tiết" />
+        <EditText
+            android:id="@+id/txtSoTiet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Mô tả" />
+        <EditText
+            android:id="@+id/txtMoTa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Chọn bộ môn" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            />
+    </TableRow>
+
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow>
+        <Button android:id="@+id/save"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu lại" />
+        <Button android:id="@+id/delete"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa môn học" />
+        <Button android:id="@+id/cancel"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại" />
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+</TableLayout>

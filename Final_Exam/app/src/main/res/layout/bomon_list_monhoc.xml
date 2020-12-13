@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0033cc"
+        android:orientation="vertical">
+        <View
+            android:layout_height="3px"
+            android:background="#0000FF" />
+        <TableRow android:background="#DAE8FC" android:padding="5dp">
+            <TextView
+                android:id="@+id/txtMaMonHoc"
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:text="Mã môn học" />
+            <TextView
+                android:id="@+id/txtTenMonHoc"
+                android:layout_width="170dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:text="Tên môn học" />
+            <TextView
+                android:id="@+id/txtSoTinChi"
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:text="Số tín chỉ" />
+            <TextView
+                android:id="@+id/txtSoTiet"
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:text="Số tiết" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+

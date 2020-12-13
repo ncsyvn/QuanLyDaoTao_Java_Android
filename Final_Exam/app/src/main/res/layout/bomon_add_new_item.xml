@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/myTableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff0033cc"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="Thêm Mới Bộ Môn" />
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Mã bộ môn" />
+        <EditText
+            android:id="@+id/txtId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Tên bộ môn" />
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+    android:layout_height="3px"
+    android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Khoa" />
+        <EditText
+            android:id="@+id/txtMaKhoa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow android:background="#DAE8FC" android:padding="5dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
+            android:text="Mô tả" />
+        <EditText
+            android:id="@+id/txtMoTa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00d2ff"
+            android:textSize="18sp"
+            android:autoText="true"
+            android:capitalize="words"
+            android:layout_weight="12"
+            >
+        </EditText>
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+    <TableRow>
+        <Button android:id="@+id/add"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+        <Button android:id="@+id/cancel"
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại" />
+
+    </TableRow>
+    <View
+        android:layout_height="3px"
+        android:background="#0000FF" />
+</TableLayout>
